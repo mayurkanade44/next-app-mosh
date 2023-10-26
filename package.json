@@ -6,12 +6,19 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "preview-email":"email dev -p 3030"
   },
   "dependencies": {
+    "@prisma/client": "^5.4.2",
+    "@react-email/components": "^0.0.7",
     "next": "13.5.6",
+    "next-cloudinary": "^4.28.0",
+    "prisma": "^5.4.2",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-email": "^1.9.5",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "@types/node": "^20",
